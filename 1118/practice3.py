@@ -17,7 +17,7 @@ print("first 'WARNING' appearance index:", word.find("WARNING"))
 print("second 'WARNING' appearance index:", word.find("WARNING",word.find("WARNING")+1))
 
 #6
-print("the words between two 'WARNING's:",word[7+len("WARNING"):28])
+print("the letters between two 'WARNING's:",len(word[7+len("WARNING"):28]))
 
 #7
 print("if the word 'ERROR' is in between:","ERROR"in(word[14:28]))
