@@ -8,6 +8,3 @@ match a, b:
     print("good")
   case _:
     print("bad")
-
-
-print('changes')
